@@ -1,0 +1,18 @@
+#show-contact {
+    display: none;
+  }
+
+  .delvic{
+    font-size: 30px;
+  }
+  
+  .flx{
+    display: flex;
+    flex-direction: row;
+    padding-left: vw;
+    justify-content: space-evenly;
+    color: rgb(70, 127, 134);
+    cursor: pointer;
+    
+}
+  
