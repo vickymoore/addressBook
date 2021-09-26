@@ -14,4 +14,9 @@
     color: rgb(70, 127, 134);
     cursor: pointer;
     }
+
+    .sub{
+      display: inline-block;
+      
+    }
   

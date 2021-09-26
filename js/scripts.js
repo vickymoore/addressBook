@@ -60,7 +60,7 @@ function showContact(contactId) {
   $("#show-contact").show();
   $(".first-name").html(contact.firstName);
   $(".last-name").html(contact.lastName);
-  $(".phone-number").html(contact.phoneNumber);
+  $(".phone-number").html(contact.phoneNumber );
   $(".email").html(contact.email);
   $(".phone-add").html(contact.phoneAdd);
   $(".home-add").html(contact.homeAdd);
