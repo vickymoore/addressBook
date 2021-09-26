@@ -42,6 +42,28 @@ Contact.prototype.fullName = function() {
   return this.firstName + " " + this.lastName;
 };
 
+
+//Business Logic For PhoneNumber, EmailAddress & PhysicalAddress:-----
+function PhoneNumber(mobile, home, work, other) {
+  this.mobile = mobile;
+  this.home = home;
+  this.work = work;
+  this.other = other;
+}
+
+function EmailAddress(mobile, home, work, other) {
+  this.mobile = mobile;
+  this.home = home;
+  this.work = work;
+  this.other = other;
+}
+
+function PhysicalAddress(home, work, other) {
+  this.home = home;
+  this.work = work;
+  this.other = other;
+}
+
 // User Interface Logic ---------
 let addressBook = new AddressBook();
 
