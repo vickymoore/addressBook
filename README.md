@@ -45,7 +45,7 @@ This program is **a book or a database used for storing entries called contacts*
 
 * Test: It is a constructive function for phone numbers objects, it takes the number type (mobile, home, work, others) and stores them as an object.
 
-* Code: let newNumber = new PhoneNumber(09138673674, 081031837, 09138673674, 09079850985); console.log(newNumber);
+* Code: let newNumber = new PhoneNumber(09138673674, 08103183756, 09138673674, 09079850985); console.log(newNumber);
 
 * Expected Output: PhoneNumber {mobile: 09138673674, home: 09029936119, work: 09138673674, other: 09079850985}
 
