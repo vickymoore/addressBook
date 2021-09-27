@@ -45,7 +45,7 @@ This program is **a book or a database used for storing entries called contacts*
 
 * Test: It is a constructive function for phone numbers objects, it takes the number type (mobile, home, work, others) and stores them as an object.
 
-* Code: let newNumber = new PhoneNumber(09138673674, 09029936119, 09138673674, 09079850985); console.log(newNumber);
+* Code: let newNumber = new PhoneNumber(09138673674, 081031837, 09138673674, 09079850985); console.log(newNumber);
 
 * Expected Output: PhoneNumber {mobile: 09138673674, home: 09029936119, work: 09138673674, other: 09079850985}
 
@@ -62,9 +62,9 @@ This program is **a book or a database used for storing entries called contacts*
 
 * Test: It is a constructive function for Email objects, it takes the Email type (mobile, home, work, others) and stores them as an object.
 
-* Code: let newEmail = new EmailAddress(logicprime001@gmail.com, adepitanprosper01@Gmail.com, primeval@yahoo.com, adalovelace@yahoo.com); console.log(newEmail);
+* Code: let newEmail = new EmailAddress(victechpoint@gmail.com, praiseopebiyivictor@Gmail.com, victech@yahoo.com, adalovelace@yahoo.com); console.log(newEmail);
 
-* Expected Output: EmailAddress {mobile: logicprime001@gmail.com, home: adepitanprosper01@Gmail.com, work: primeval@yahoo.com, other: adalovelace@yahoo}
+* Expected Output: EmailAddress {mobile: victechpoint@gmail.com,  home: praiseopebiyivictor@Gmail.com, work: victech@yahoo.com, other: adalovelace@yahoo}
 
 -----> Describe Contact.prototype.addEmail()
 
