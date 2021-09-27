@@ -19,4 +19,49 @@
       display: inline-block;
       
     }
+
+    body{
+      background-image: url(/css/phone.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hidden1 {
+      display: none;
+    }
+  
+    .hidden2 {
+      display: none;
+    }
+  
+    .hidden3 {
+      display: none;
+    }
+
+
+    #contacts {
+      font-size: xx-large;
+      font-weight: 400;
+      list-style:decimal-leading-zero;
+      
+    }
+
+    #show-contact {
+      margin-top: 20px;
+      background-color:white;
+      padding: 15px;
+      border-radius: 7%;
+      border: 2px solid darkgrey;
+    }
+
+    #contacts :hover {
+      cursor: pointer;
+      color: white;
+      shape-outside: border-box;
+      box-shadow: black;
+      text-shadow: black;
+    }
+  
   
